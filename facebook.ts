@@ -127,8 +127,21 @@ let info = new SocialProfile("Lokesh", ["DBPS", "RPS"], ["Web Developer"], "Rewa
                             "Not interested", "Single");
 
 //printing information on console log
-console.log(`\nFacebook profile information\n`);
 console.log(info);
+console.log(`\nFacebook profile information\n`);
+console.log(`Name: ${info.getName()}`);
+console.log(`School: ${info.getSchool()}`);
+console.log(`Skills: ${info.getSkills()}`);
+console.log(`HomeTown: ${info.getHomeTown()}`);
+console.log(`Current City: ${info.getCurrentCity()}`);
+console.log(`Mobile No.: ${info.getMobileNo()}`);
+console.log(`Facebook Id: ${info.getFacebookId()}`);
+console.log(`Email: ${info.getEmail()}`);
+console.log(`Birthday: ${info.getBirthday()}`);
+console.log(`Gender: ${info.getGender()}`);
+console.log(`Language: ${info.getLanguage()}`);
+console.log(`Views: ${info.getViews()}`);
+console.log(`Relationship status: ${info.getRelationship()}`);
 
 //Changing some properties
 info.setViews("Indian");
